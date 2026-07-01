@@ -1,0 +1,244 @@
+
+
+=== Profile.pdf ===
+   
+Contact
++923440503800 (Mobile)
+zakihaider7860@gmail.com
+www.linkedin.com/in/zaki-haider-
+b36849318 (LinkedIn)
+Top Skills
+Software Development
+Data Analysis
+FastAPI
+Certifications
+Deloitte Australia - Data Analytics
+Job Simulation
+Wells Fargo - Software Engineering
+Job Simulation
+Vista Equity Partners - AI in Action
+Job Simulation
+Essentials in Generative AI
+Practical Computer Vision with
+PyTorch
+Zaki Haider
+AI/ML & CV Intern @KDD | ML Systems · GenAI Pipelines ·
+Computer Vision | Final Year @FAST-NUCES
+Islāmābād, Pakistan
+Summary
+I'm a final-year Software Engineering student at FAST-NUCES,
+internee at Knowledge Discovery and Data Science (KDD) where
+I work on AI/ML and Computer Vision systems.My focus is on
+building end-to-end ML pipelines, from data preprocessing and
+model training to deployment-ready GenAI workflows. I work
+across Python, PyTorch, TensorFlow, and Scikit-learn, and care
+deeply about understanding systems rather than just using tools.I'm
+actively looking for AI/ML or software engineering roles where I can
+contribute to real-world products. Open to full-time positions starting
+mid-2027 and internships immediately.
+Experience
+National University of Computer and Emerging Sciences
+8 months
+Teaching Assistant - Multi Variable Calculus
+August 2025 - January 2026 (6 months)
+• Supported 50+ students in Multivariable Calculus through  assignment
+grading, and concept review sessions.
+• Prepared and delivered supplementary problem sets to reinforce lecture
+material, contributing to improved class performance.
+• Served as primary point of contact for student queries, resolving doubts on
+topics including partial derivatives, gradients, and vector fields.
+Teacher Assistant - Calculus
+June 2025 - August 2025 (3 months)
+• Assisted course instructor in grading assessments and quizzes for a class of
+50+ students each semester.
+• Held weekly help sessions to support students with challenging topics
+including limits, integration techniques, and series.
+• Recognized for consistent and clear communication of abstract mathematical
+concepts to engineering students.
+  Page 1 of 2   
+Knowledge Discovery and Data Science
+AI/ML/CV
+June 2025 - August 2025 (3 months)
+Islāmābād, Pakistan
+• Developed and fine-tuned computer vision models using PyTorch for text-to-
+image generation model, achieving 91% accuracy on the test set.
+• Built end-to-end data pipelines for preprocessing and augmenting images
+datasets used in ML training workflows.
+• Collaborated with senior researchers to implement and evaluate ML model
+for image generation using NLP.
+National University of Computer and Emerging Sciences
+Teacher Assistant - Calculus 
+August 2024 - January 2025 (6 months)
+• Assisted course instructor in grading assessments and quizzes for a class of
+50+ students each semester.
+• Held weekly help sessions to support students with challenging topics
+including limits, integration techniques, and series.
+• Recognized for consistent and clear communication of abstract mathematical
+concepts to engineering students.
+Education
+National University of Computer and Emerging Sciences
+Computer Software Engineering · (August 2023 - June 2027)
+Fazaia Inter College (FIC)
+Intermediate, Pre-Engineering · (June 2021 - June 2023)
+Fazaia Inter College (FIC)
+Matriculation, Computer Science · (May 2019 - May 2021)
+  Page 2 of 2
+
+=== Resume-Zaki.pdf ===
+ZAKI HAIDER
+zakihaider7860@gmail.com|+92 344 050 3800|Islamabad, Pakistan
+linkedin.com/in/zaki-haider-b36849318|github.com/Zakihayder
+PROFESSIONAL SUMMARY
+Final-year Software Engineering student at FAST -NUCES (completing 6th Semester) with hands-on expertise in AI,
+Machine Learning, Computer Vision, and Generative AI. Proven through national competition wins, research internships,
+and end-to-end AI projects. Actively seeking AI Engineering internships and roles where I can build intelligent, real-world
+systems that create meaningful impact.
+WORK EXPERIENCE
+Knowledge Discovery and Data Science Lab, FAST-NUCESJun 2025 – Aug 2025
+Summer Intern — AI, ML & Computer Vision
+• Built an end-to-end deep learning pipeline for text-to-image generation, achieving91%+ accuracyon a curated
+dataset of100,000+ sampleswithout relying on any external APIs.
+• Trained custom generative models from scratch, optimizing architecture and hyperparameters for efficiency and
+output quality.
+• Gained deep hands-on experience in diffusion-based models, CNNs, and Vision Transformers (ViTs) for image
+synthesis tasks.
+openHPI — Hasso Plattner Institute May 2025
+Practical Computer Vision with PyTorch — Trainee
+• Implemented CNNs, Vision Transformers (ViTs), and diffusion-based models for object detection and image segmen-
+tation using PyTorch.
+• Completed structured Computer Vision coursework covering modern deep learning architectures and practical model
+deployment techniques.
+EDUCATION
+FAST-NUCES, Islamabad, PakistanAug 2023 – Jun 2027 (Expected)
+Bachelor of Software Engineering | CGPA: 3.1+
+Relevant Coursework:AI & Machine Learning, Neural Networks, Computer Vision, Data Mining, Database Management
+Systems, Software Quality Assurance, Operating Systems.
+PROJECTS
+Automatic University Timetable Generator— Python, Genetic Algorithms, Optimization
+• Designed and implemented an intelligent scheduling system using Genetic Algorithms to automatically resolve
+conflicts across rooms, faculty, and time slots.
+• Engineered fitness functions and crossover/mutation strategies to optimize schedule quality across multiple hard and
+soft constraints simultaneously.
+CDA Transit Route Analyser— Python, Process Mining, Event Logs, Map Integration, Chatbot
+• Built a full transit analysis system integrating real CDA bus route maps; users input source and destination and
+receive optimized route suggestions with timings and departures.
+• Applied Process Mining concepts (event log analysis) to model and analyse real-world transit patterns and passenger
+flows.
+• Integrated an AI chatbot interface for natural-language route queries and travel assistance.
+Gesture-Controlled Drawing Application— Python, OpenCV, MediaPipe, NumPy
+• Developed a real-time hand-tracking application using MediaPipe and OpenCV for webcam-based drawing, shape
+recognition, and intuitive gesture-driven UI controls.Career Connect — Job Fair Management System— SQL Server, Desktop Application
+• Designed a 3NF-normalized SQL Server database and desktop application featuring multi-role access, real-time
+check-ins, and an admin dashboard for placement and interview analytics.
+ACHIEVEMENTS
+• 1st Position — App Development, SOFTEC (FAST University Lahore):Secured first place at SOFTEC, a
+prestigious national-level 24-hour hackathon held at FAST Lahore, competing against top university teams from
+across Pakistan.
+• Winner — University-Wide AI Hackathon, SES Society:Outperformed multi-university teams by developing a
+functional AI solution within a limited timeframe, demonstrating rapid prototyping and collaborative problem-solving
+skills.
+• 4× Teaching Assistant — FAST-NUCES Islamabad:Selected for four consecutive terms to assist faculty in core
+computing courses, mentoring junior students in programming logic, debugging, and software engineering principles.
+• Volunteer — Indus AI Week, Ministry of IT Pakistan:Contributed as a technical volunteer at the national AI
+awareness event organised by the Ministry of IT, February 2026.
+TECHNICAL SKILLS
+AI & Machine Learning:Supervised & Unsupervised Learning, Deep Learning, Neural Networks, NLP , Generative AI,
+Diffusion Models, CNNs, Vision Transformers (ViTs), RAG Pipelines, Similarity Search, Genetic Algorithms, Process
+Mining
+Frameworks & Libraries:PyTorch, TensorFlow, Scikit-learn, LangChain, HuggingFace, OpenCV, MediaPipe, Pandas,
+NumPy, Streamlit, Flask
+Databases:MongoDB, MySQL, SQLite, PostgreSQL, ChromaDB
+Programming:Python, C++, Java, JavaScript, SQL, HTML, CSS
+No-Code / Automation:n8n (workflow automation), NocoDB (no-code database)
+Tools:Git/GitHub, VS Code, Cypress, Jupyter Notebook
+CERTIFICATIONS
+•Practical Computer Vision with PyTorch| Hasso Plattner Institute (openHPI) | May 2025
+•Fundamentals of Machine Learning and Artificial Intelligence| AWS Training & Certifications | Jun 2025
+•Process Mining: Data Science in Action| Coursera — Eindhoven University of Technology | 2025
+•1st Place — App Development Hackathon Certificate| SOFTEC, FAST University Lahore | 2025
+LANGUAGES
+Urdu:NativeEnglish:Intermediate Proficiency
+References available upon request.
+
+=== Zaki-Haider_Resume.pdf ===
+ZAKI HAIDER
+zakihaider7860@gmail.com|+92 344 050 3800|Islamabad, Pakistan
+linkedin.com/in/zaki-haider-b36849318|github.com/Zakihayder
+PROFESSIONAL SUMMARY
+Final-year Software Engineering student at FAST -NUCES (completing 6th Semester) with practical experience in
+full-stack web development using the MERN stack, REST APIs, and WebSocket-based real-time systems. Proven ability
+to deliver production-grade modules in large team projects, and a track record of building complete web applications
+end-to-end. Actively seeking web development internships and roles where I can contribute to scalable, user-facing
+products.
+WORK EXPERIENCE
+National Freelance Platform — Collaboration Module2024 – 2025
+Full-Stack Developer — Module Lead (Team Project)
+• Led development of Module 5 (Collaboration & Team Workspace) as part of an 11-module national-scale freelance
+platform built by a cross-functional team.
+• Built the full frontend workspace inReact.js / Next.js— including a Kanban/List task board, team management
+panel, file repository UI, real-time chat panel, meeting hub, and activity log viewer.
+• Developed backend services inNode.js / Express: RBAC engine, task management service, WebSocket chat server
+(Socket.IO), file storage integration, and activity logger API.
+• Integrated with external modules including Authentication, Notifications, File Storage, andGoogle Meet / Zoom APIs
+for meeting link generation.
+• Followed a full SDLC: SRS review, system architecture design, database schema design, REST API design,
+unit/integration/performance/security testing, CI/CD pipeline setup, and production deployment.
+openHPI — Hasso Plattner Institute May 2025
+Practical Computer Vision with PyTorch — Trainee
+• Completed structured deep learning coursework with hands-on implementation of CNNs and Vision Transformers
+using PyTorch — demonstrating ability to integrate AI features into software products.
+EDUCATION
+FAST-NUCES, Islamabad, PakistanAug 2023 – Jun 2027 (Expected)
+Bachelor of Software Engineering | CGPA: 3.1+
+Relevant Coursework:Web Engineering, Database Management Systems, Software Quality Assurance, Operating
+Systems, AI & Machine Learning, Data Mining.
+PROJECTS
+National Freelance Platform — Collaboration & Team Workspace— React.js, Next.js, Node.js, Express, Socket.IO,
+MongoDB
+• Designed and implemented a complete team collaboration workspace within a large-scale freelance platform, handling
+real-time chat, task tracking, file sharing, and meeting scheduling.
+• Architected a Role-Based Access Control (RBAC) engine and WebSocket chat server supporting concurrent team
+communication via Socket.IO.
+• Delivered across all phases: requirements, design, frontend, backend, integration, QA, and production deployment
+with CI/CD.
+E-Commerce Clothing Store — Full-Stack Web App— MongoDB, Express, React.js, Node.js (MERN)
+• Built a complete full-stack e-commerce web application for a clothing store (similar to Outfitters) as a capstone MERN
+stack project.
+• Implemented product catalogue, shopping cart, user authentication, and order management with a responsive Reactfrontend and REST API backend.
+• Designed and managed a MongoDB database schema for products, users, and orders.
+SmartMail — Intelligent Email Insights Platform— MERN Stack, NLP , Data Extraction, Dashboard
+• Built an email intelligence web application that ingests a user’s inbox, extracts structured data from emails, and
+surfaces key insights — urgency ratings, deadlines, action items, and sender analytics — in a clean dashboard.
+• Developed an automated priority-scoring engine to classify emails by deadline proximity and importance, enabling
+users to focus on what matters.
+• Won1st place at SOFTEC(national 24-hour hackathon, FAST University Lahore) with this project, competing against
+top teams from across Pakistan.
+Career Connect — Job Fair Management System— SQL Server, Desktop Application, REST API
+• Designed a 3NF-normalized SQL Server database and multi-role desktop application featuring real-time check-ins
+and an admin dashboard for placement and interview analytics.
+ACHIEVEMENTS
+• 1st Position — App Development, SOFTEC (FAST University Lahore):Won first place at a prestigious national-
+level 24-hour hackathon with SmartMail, an intelligent email insights platform, competing against top university teams
+from across Pakistan.
+• Winner — University-Wide AI Hackathon, SES Society:Outperformed multi-university teams by developing a
+functional full-stack AI solution within a limited timeframe.
+• 4× Teaching Assistant — FAST-NUCES Islamabad:Selected for four consecutive terms to mentor junior students
+in programming logic, debugging, and software engineering principles.
+• Volunteer — Indus AI Week, Ministry of IT Pakistan:Contributed as a technical volunteer at the national AI
+awareness event organised by the Ministry of IT, February 2026.
+TECHNICAL SKILLS
+Frontend:React.js, Next.js, HTML5, CSS3, JavaScript (ES6+), Responsive Design
+Backend:Node.js, Express.js, REST API Design, WebSocket / Socket.IO, Django
+Databases:MongoDB, MySQL, SQLite, PostgreSQL, NocoDB
+Full-Stack:MERN Stack, Authentication (JWT), RBAC, CI/CD Pipelines, Google Meet / Zoom API Integration
+Automation & Tools:n8n (workflow automation), Slack integrations, Git/GitHub, VS Code, Postman, Cypress
+Programming Languages:JavaScript, Python, C++, Java, SQL
+AI Integration:LangChain, Streamlit, Flask — ability to embed AI/ML features into web products
+CERTIFICATIONS
+•Fundamentals of Machine Learning and Artificial Intelligence| AWS Training & Certifications | Jun 2025
+•Practical Computer Vision with PyTorch| Hasso Plattner Institute (openHPI) | May 2025
+•Process Mining: Data Science in Action| Coursera — Eindhoven University of Technology | 2025
+•1st Place — App Development Hackathon Certificate| SOFTEC, FAST University Lahore | 2025
+LANGUAGES
+Urdu:NativeEnglish:Intermediate Proficiency
+References available upon request.
