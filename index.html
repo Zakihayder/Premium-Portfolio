@@ -323,6 +323,7 @@
       gap: 1rem;
       justify-content: center;
       flex-wrap: wrap;
+      pointer-events: auto;
     }
 
     .btn-primary {
@@ -403,6 +404,8 @@
       grid-template-columns: 1fr 1fr;
       gap: 6vw;
       align-items: center;
+      position: relative;
+      z-index: 10;
     }
 
     .about-text .section-eyebrow {
@@ -456,6 +459,57 @@
     .cv-download svg {
       width: 15px;
       flex-shrink: 0;
+    }
+
+    .cv-dropdown-wrapper {
+      position: relative;
+      display: inline-block;
+      z-index: 1000;
+    }
+
+    .cv-dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin-top: 0.5rem;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      min-width: 220px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      transition: all 0.25s ease;
+      z-index: 100;
+    }
+
+    .cv-dropdown-menu.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .cv-dropdown-menu a {
+      padding: 1rem 1.2rem;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s, color 0.2s;
+      text-align: left;
+    }
+
+    .cv-dropdown-menu a:last-child {
+      border-bottom: none;
+    }
+
+    .cv-dropdown-menu a:hover {
+      background: rgba(197, 168, 128, 0.08);
+      color: var(--accent);
     }
 
     .about-img-wrapper {
@@ -1634,7 +1688,7 @@
   ============================================================ -->
   <div id="intro-sequence">
     <div class="pin-wrap">
-      <img src="assets/img/hero_laptop_boy.png" id="laptop-zoom-img" alt="Engineer at work">
+      <img src="../PortFolio-main/assets/img/hero_laptop_boy.png" id="laptop-zoom-img" alt="Engineer at work">
       <div id="crazy-3d-bg">
         <canvas id="hero-canvas"></canvas>
         <div class="hero-content container">
@@ -1681,18 +1735,24 @@
           My work spans real-time WebSocket platforms, custom generative model training from scratch, normalized
           database architecture, and full SDLC delivery — from SRS to CI/CD deployment.
         </p>
-        <a href="assets/Zaki-Haider-CV.pdf" download class="cv-download reveal-fade">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          Download CV
-        </a>
+        <div class="cv-dropdown-wrapper reveal-fade">
+          <button class="cv-download" id="cvDropdownBtn" style="border: none; cursor: pointer; font-family: inherit;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download CV
+          </button>
+          <div class="cv-dropdown-menu" id="cvDropdownMenu">
+            <a href="./Resume-Zaki.pdf" download target="_blank">AI / Machine Learning</a>
+            <a href="./Zaki-Haider_Resume.pdf" download target="_blank">Full-Stack Web Dev</a>
+          </div>
+        </div>
       </div>
       <div class="about-visual reveal-fade">
         <div class="about-img-wrapper" id="about-parallax">
-          <img src="assets/img/Pro.png" alt="Zaki Haider">
+          <img src="../PortFolio-main/assets/img/Pro.png" alt="Zaki Haider">
           <div class="about-img-badge">
             📍 Islamabad, Pakistan · Open to Remote
           </div>
@@ -1858,7 +1918,7 @@
         <a href="https://www.linkedin.com/posts/uzair-majeed-605611319_softwareengineering-projectmanagement-reactjs-ugcPost-7456970567749910529-nSfD"
           target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/freelance-platform.png" alt="National Freelance Platform">
+            <img src="../PortFolio-main/assets/img/freelance-platform.png" alt="National Freelance Platform">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -1872,7 +1932,7 @@
 
         <a href="https://github.com/Zakihayder" target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/smartmail.png" alt="SmartMail">
+            <img src="../PortFolio-main/assets/img/smartmail.png" alt="SmartMail">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -1889,7 +1949,7 @@
         <a href="https://www.linkedin.com/posts/zaki-haider-b36849318_datascience-processmining-publictransit-activity-7459613233671356416-QMQk"
           target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/transit-analyser.png" alt="CDA Transit Analyser">
+            <img src="../PortFolio-main/assets/img/transit-analyser.png" alt="CDA Transit Analyser">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -1904,7 +1964,7 @@
         <a href="https://www.linkedin.com/posts/zaki-haider-b36849318_databaseproject-careerconnect-sql-activity-7335270278937165825-0dvk"
           target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/career-connect.png" alt="Career Connect">
+            <img src="../PortFolio-main/assets/img/career-connect.png" alt="Career Connect">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -1919,7 +1979,7 @@
         <a href="https://www.linkedin.com/posts/zaki-haider-b36849318_computervision-python-opencv-activity-7347280794379247617-vk_Y"
           target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/gesture-drawing.png" alt="Gesture Drawing">
+            <img src="../PortFolio-main/assets/img/gesture-drawing.png" alt="Gesture Drawing">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -1934,7 +1994,7 @@
         <a href="https://www.linkedin.com/posts/zaki-haider-b36849318_ai-geneticalgorithm-scheduling-activity-7457452709802323968-Gmaj"
           target="_blank" class="project-card reveal-fade">
           <div class="project-image-wrap">
-            <img src="assets/img/timetable-generator.png" alt="Timetable Generator">
+            <img src="../PortFolio-main/assets/img/timetable-generator.png" alt="Timetable Generator">
             <div class="project-image-overlay"><span class="project-view-link">View Project ↗</span></div>
           </div>
           <div class="project-info">
@@ -2222,7 +2282,7 @@
       <a href="https://linkedin.com/in/zaki-haider-b36849318" target="_blank">LinkedIn</a>
       <a href="https://github.com/Zakihayder" target="_blank">GitHub</a>
       <a href="mailto:zakihaider7860@gmail.com">Email</a>
-      <a href="assets/Zaki-Haider-CV.pdf" download>Download CV</a>
+      <a href="../PortFolio-main/assets/Zaki-Haider-CV.pdf" download>Download CV</a>
     </div>
   </footer>
 
@@ -2350,18 +2410,18 @@
         shape.holes.push(hole);
         const geo = new THREE.ExtrudeGeometry(shape, { depth: radius * .3, bevelEnabled: true, bevelSegments: 2, steps: 1, bevelSize: .1, bevelThickness: .1 });
         geo.center();
-        const mat = new THREE.MeshStandardMaterial({ color: 0x333333, metalness: .8, roughness: .2, map: Math.random() > .5 ? circuitTexture : null });
+        const mat = new THREE.MeshStandardMaterial({ color: 0xa0a0a0, metalness: 0.7, roughness: 0.1, map: Math.random() > .5 ? circuitTexture : null });
         return new THREE.Mesh(geo, mat);
       };
 
       const gears = [];
       [
-        { r: 8, t: 16, pos: [-25, 10, -30], speed: .002 },
-        { r: 12, t: 24, pos: [-10, 5, -40], speed: -.0015 },
-        { r: 5, t: 10, pos: [20, -15, -20], speed: .004 },
-        { r: 15, t: 30, pos: [35, 20, -50], speed: -.001 },
-        { r: 7, t: 14, pos: [0, -25, -60], speed: .003 },
-        { r: 20, t: 40, pos: [-40, -10, -70], speed: -.0008 }
+        { r: 8, t: 16, pos: [-25, 10, -15], speed: .002 },
+        { r: 12, t: 24, pos: [-10, 5, -20], speed: -.0015 },
+        { r: 5, t: 10, pos: [20, -15, -10], speed: .004 },
+        { r: 15, t: 30, pos: [35, 20, -25], speed: -.001 },
+        { r: 7, t: 14, pos: [0, -25, -30], speed: .003 },
+        { r: 20, t: 40, pos: [-40, -10, -35], speed: -.0008 }
       ].forEach(c => {
         const g = createGear(c.r, c.t);
         g.position.set(...c.pos);
@@ -2370,10 +2430,10 @@
         scene.add(g); gears.push({ mesh: g, speed: c.speed });
       });
 
-      scene.add(new THREE.AmbientLight(0xffffff, .4));
-      const dl = new THREE.DirectionalLight(0xC5A880, 2);
-      dl.position.set(20, 20, 20); scene.add(dl);
-      scene.fog = new THREE.FogExp2(0x000000, .015);
+      scene.add(new THREE.AmbientLight(0xffffff, 1.2));
+      const dl = new THREE.DirectionalLight(0xC5A880, 3);
+      dl.position.set(30, 30, 30); scene.add(dl);
+      scene.fog = new THREE.FogExp2(0x000000, .005);
 
       const animate = () => {
         requestAnimationFrame(animate);
@@ -2447,9 +2507,9 @@
         },
         skills: ["PyTorch", "TensorFlow", "Scikit-learn", "HuggingFace", "LangChain", "OpenCV", "MediaPipe", "CNNs & ViTs", "Diffusion Models", "RAG Pipelines", "Genetic Algorithms", "Process Mining"],
         projects: [
-          { name: "SmartMail — Intelligent Email Insights 🥇", img: "assets/img/smartmail.png", tags: "NLP · Data Extraction · 1st Place SOFTEC", desc: "Won 1st at SOFTEC national hackathon. NLP-powered email intelligence extracting urgency ratings, deadlines, and analytics from inboxes." },
-          { name: "CDA Transit Route Analyser", img: "assets/img/transit-analyser.png", tags: "Python · Process Mining · AI Chatbot", desc: "Analysed real event logs and CDA bus routes to suggest optimized travel paths with a natural-language AI assistant." },
-          { name: "Gesture-Controlled Drawing App", img: "assets/img/gesture-drawing.png", tags: "OpenCV · MediaPipe · Python", desc: "Real-time webcam hand-tracking for shape recognition and fully gesture-driven UI — zero physical input required." }
+          { name: "SmartMail — Intelligent Email Insights 🥇", img: "../PortFolio-main/assets/img/smartmail.png", tags: "NLP · Data Extraction · 1st Place SOFTEC", desc: "Won 1st at SOFTEC national hackathon. NLP-powered email intelligence extracting urgency ratings, deadlines, and analytics from inboxes." },
+          { name: "CDA Transit Route Analyser", img: "../PortFolio-main/assets/img/transit-analyser.png", tags: "Python · Process Mining · AI Chatbot", desc: "Analysed real event logs and CDA bus routes to suggest optimized travel paths with a natural-language AI assistant." },
+          { name: "Gesture-Controlled Drawing App", img: "../PortFolio-main/assets/img/gesture-drawing.png", tags: "OpenCV · MediaPipe · Python", desc: "Real-time webcam hand-tracking for shape recognition and fully gesture-driven UI — zero physical input required." }
         ]
       },
       web: {
@@ -2462,8 +2522,8 @@
         },
         skills: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Socket.IO / WebSockets", "REST APIs", "JWT Auth", "RBAC", "CI/CD", "Django", "n8n Automation"],
         projects: [
-          { name: "National Freelance Platform — Team Workspace", img: "assets/img/freelance-platform.png", tags: "MERN Stack · Socket.IO · Next.js · RBAC", desc: "Led Module 5 of an 11-module national platform. Kanban board, real-time chat, RBAC engine, and file repo — full SDLC delivery." },
-          { name: "SmartMail — Intelligent Email Insights 🥇", img: "assets/img/smartmail.png", tags: "React.js · Dashboard · AI Integration", desc: "Won 1st at SOFTEC national hackathon. Full-stack intelligent dashboard for email analytics, leveraging NLP for structured data extraction." }
+          { name: "National Freelance Platform — Team Workspace", img: "../PortFolio-main/assets/img/freelance-platform.png", tags: "MERN Stack · Socket.IO · Next.js · RBAC", desc: "Led Module 5 of an 11-module national platform. Kanban board, real-time chat, RBAC engine, and file repo — full SDLC delivery." },
+          { name: "SmartMail — Intelligent Email Insights 🥇", img: "../PortFolio-main/assets/img/smartmail.png", tags: "React.js · Dashboard · AI Integration", desc: "Won 1st at SOFTEC national hackathon. Full-stack intelligent dashboard for email analytics, leveraging NLP for structured data extraction." }
         ]
       },
       swe: {
@@ -2476,9 +2536,9 @@
         },
         skills: ["SRS & Requirements Engineering", "System Architecture Design", "Software Quality Assurance", "Integration & Unit Testing", "Cypress E2E Testing", "CI/CD Pipelines", "Database Design (3NF)", "SQL Server / MySQL", "Git / GitHub", "UML & Design Patterns", "SDLC Methodologies"],
         projects: [
-          { name: "Career Connect — Job Fair Management System", img: "assets/img/career-connect.png", tags: "SQL Server · 3NF · Desktop App · SQA", desc: "3NF-normalized database and multi-role desktop application with real-time check-ins, RBAC, and admin analytics. Full SQA applied." },
-          { name: "National Freelance Platform — Full SDLC", img: "assets/img/freelance-platform.png", tags: "SRS · Architecture · Testing · CI/CD", desc: "Followed complete SDLC from SRS and architecture design through integration testing, security testing, and CI/CD deployment." },
-          { name: "Automatic Timetable Generator", img: "assets/img/timetable-generator.png", tags: "Genetic Algorithms · Constraint Optimization", desc: "Intelligent scheduler resolving hard and soft constraints across rooms, faculty, and time slots using engineered fitness functions." }
+          { name: "Career Connect — Job Fair Management System", img: "../PortFolio-main/assets/img/career-connect.png", tags: "SQL Server · 3NF · Desktop App · SQA", desc: "3NF-normalized database and multi-role desktop application with real-time check-ins, RBAC, and admin analytics. Full SQA applied." },
+          { name: "National Freelance Platform — Full SDLC", img: "../PortFolio-main/assets/img/freelance-platform.png", tags: "SRS · Architecture · Testing · CI/CD", desc: "Followed complete SDLC from SRS and architecture design through integration testing, security testing, and CI/CD deployment." },
+          { name: "Automatic Timetable Generator", img: "../PortFolio-main/assets/img/timetable-generator.png", tags: "Genetic Algorithms · Constraint Optimization", desc: "Intelligent scheduler resolving hard and soft constraints across rooms, faculty, and time slots using engineered fitness functions." }
         ]
       }
     };
@@ -2601,6 +2661,28 @@
     };
 
     /* =========================================================
+       8. CV DROPDOWN
+    ========================================================= */
+    const initCVToggle = () => {
+      const cvBtn = document.getElementById('cvDropdownBtn');
+      const cvMenu = document.getElementById('cvDropdownMenu');
+      if (cvBtn && cvMenu) {
+        cvBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          cvMenu.classList.toggle('active');
+        });
+        cvMenu.addEventListener('click', (e) => {
+          // Stop propagation so clicking the link doesn't instantly close the menu,
+          // which can cancel the download in some browsers.
+          e.stopPropagation();
+        });
+        document.addEventListener('click', () => {
+          cvMenu.classList.remove('active');
+        });
+      }
+    };
+
+    /* =========================================================
        INIT ALL
     ========================================================= */
     window.addEventListener('load', () => {
@@ -2611,6 +2693,7 @@
       initDomains3D();
       initCertsToggle();
       initContactForm();
+      initCVToggle();
     });
   </script>
 </body>
